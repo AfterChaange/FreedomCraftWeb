@@ -236,10 +236,29 @@ footer {
   transition: 0.3s;
   text-decoration: none;
 }
-.social-btn:hover {
-  background: var(--mc-lightBlue);
+
+/* Specifické barvy pro sociální sítě */
+.social-discord:hover {
+  background: #5865F2;
   color: #fff;
   transform: rotate(360deg);
+  box-shadow: 0 0 15px #5865F2;
+}
+
+.social-instagram:hover {
+  background: #E1306C; 
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  color: #fff;
+  transform: rotate(360deg);
+  box-shadow: 0 0 15px #E1306C;
+}
+
+.social-tiktok:hover {
+  background: #000;
+  color: #fff;
+  transform: rotate(360deg);
+  box-shadow: 0 0 10px #fff, 2px 2px 0px #00f2ea, -2px -2px 0px #ff0050;
+  border: 1px solid #333;
 }
 
 /* Mobilní úpravy */
